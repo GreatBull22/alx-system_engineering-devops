@@ -1,0 +1,2 @@
+#!/bun/bash
+tail /etc/passwd
