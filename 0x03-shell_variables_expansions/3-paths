@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | tr 'i' '\m' | wc -1
+echo $PATH | tr ':' '\m' | wc -1
