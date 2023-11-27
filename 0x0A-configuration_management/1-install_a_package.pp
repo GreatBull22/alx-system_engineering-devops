@@ -1,6 +1,5 @@
-#  puppet manifest installing flask v2.1.0 which is a package from pip3.
-# Am also specifying the version of flask to install using the ensure attribute
-package { 'flask':
-  ensure   => '2.1.0',
-  provider => pip3,
+# install puppet-lint -v 2.5.0
+
+exec { 'puppet-lint':
+  command => '/usr/bin/apt-get -y install puppet-lint -v 2.5.0',
 }
